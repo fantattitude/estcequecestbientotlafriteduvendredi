@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta charset="utf-8">
 		<title>Est-ce que c'est bientôt la frite du vendredi ?</title>
 		<link rel="stylesheet" href="frite.css">
 	</head>
