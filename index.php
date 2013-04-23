@@ -123,7 +123,7 @@
 			?>
 		</div>
 		<footer>
-			Un projet de <a href="http://twitter.com/alex_joub">@alex_joub</a>, <a href="http://twitter.com/Fantattitude">@Fantattitude</a>, <a href="http://twitter.com/victornavez">@victornavez</a> &amp; <a href="http://twitter.com/WIPEOUT2197">@WIPEOUT2197</a> (Stagiaire)
+			Un projet "à la con"™ de <a href="http://twitter.com/alex_joub">@alex_joub</a>, <a href="http://twitter.com/Fantattitude">@Fantattitude</a>, <a href="http://twitter.com/victornavez">@victornavez</a> &amp; <a href="http://twitter.com/WIPEOUT2197">@WIPEOUT2197</a> (Stagiaire)
 		</footer>
 		<script type="text/javascript">
 			var _gauges = _gauges || [];
