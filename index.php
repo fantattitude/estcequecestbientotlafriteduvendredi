@@ -2,6 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
+		<meta property="og:type" content="website" />
+		<meta property="og:title" content="Est-ce que c'est bientôt la frite du vendredi ?" />
+		<meta property="og:description" content="Une petite envie de friterie vous envahit en fin de semaine ?" />
+		<meta property="og:url" content="http://estcequecestbientotlafriteduvendredi.fr/" />
+		<meta property="og:image" content="http://estcequecestbientotlafriteduvendredi.fr/frite.gif" />
 		<title>Est-ce que c'est bientôt la frite du vendredi ?</title>
 		<link rel="stylesheet" href="frite.css">
 	</head>
@@ -56,7 +61,7 @@
 									</audio>
 									<img src="frite.gif" />
 									<h1>Prépare ton bide.</h1>
-									<h1>Lance l'invitation Gmail, faudrait pas y aller trop tard !</h1>
+									<h2>Lance l'invitation Gmail, faudrait pas y aller trop tard !</h2>
 									<?php
 								}
 								else if($heure < 12){
@@ -67,7 +72,7 @@
 									</audio>
 									<img src="frite.gif" />
 									<h1>OUI</h1>
-									<h1>On sait très bien que ton client, tu ne l'écoutes plus là…</h1>
+									<h2>On sait très bien que ton client, tu ne l'écoutes plus là…</h2>
 									<?php
 								}
 								else if($heure < 13 && $minute < 30){
