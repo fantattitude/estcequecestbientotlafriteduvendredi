@@ -1,19 +1,41 @@
 body{
 	text-align: center;
 	font-family: "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
-	overflow: hidden;
+	overflow-x: hidden;
 }
 
 #reponse{
 	position: absolute;
 	top: 50%;
 	left: 50%;
-	margin-left: -250px;
+	margin-left: -40%;
 	margin-top: -200px;
-	width: 500px;
+	width: 80%;
 	height: 400px;
+	margin-bottom: 20px;
 }
 
 #reponse h1{
 	font-size: 64px;
+}
+
+#reponse img{
+	max-width: 80%;
+}
+
+footer{
+	position: absolute;
+	bottom: 5px;
+	right: 10px;
+	font-size: 12px;
+	color: #BBBBBB;
+}
+
+footer a{
+	text-decoration: none;
+	color: #4099FF;
+}
+
+footer a:visited{
+	color: #70B3FF;
 }
