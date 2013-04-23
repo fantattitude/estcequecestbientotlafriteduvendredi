@@ -2,11 +2,11 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="Est-ce que c'est bientôt la frite du vendredi ?" />
-		<meta property="og:description" content="Une petite envie de friterie vous envahit en fin de semaine ?" />
-		<meta property="og:url" content="http://estcequecestbientotlafriteduvendredi.fr/" />
-		<meta property="og:image" content="http://estcequecestbientotlafriteduvendredi.fr/frite.gif" />
+		<meta name="og:type" content="website" />
+		<meta name="og:title" content="Est-ce que c'est bientôt la frite du vendredi ?" />
+		<meta name="og:description" content="Une petite envie de friterie vous envahit en fin de semaine ?" />
+		<meta name="og:url" content="http://estcequecestbientotlafriteduvendredi.fr/" />
+		<meta name="og:image" content="http://estcequecestbientotlafriteduvendredi.fr/frite.gif" />
 		<title>Est-ce que c'est bientôt la frite du vendredi ?</title>
 		<link rel="stylesheet" href="frite.css">
 	</head>
