@@ -26,7 +26,7 @@
 				$jour = date('N');
 				$heure = date('G');
 				$minute = date('i');
-				if($heure > 0 && $heure < 5)
+				if($heure >= 0 && $heure < 5)
 				{
 					?>
 					<audio autoplay loop>
