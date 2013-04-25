@@ -4,10 +4,11 @@
 		<meta charset="utf-8">
 		<meta name="og:type" content="website" />
 		<meta name="og:title" content="Est-ce que c'est bientôt la frite du vendredi ?" />
-		<meta name="og:description" content="Une petite envie de friterie vous envahit en fin de semaine ?" />
+		<meta name="og:description" content="Tu travailles, tu as envie de frites, c'est vendredi et c'est bientôt le week-end. La Quête du Gras commence !" />
 		<meta name="og:url" content="http://estcequecestbientotlafriteduvendredi.fr/" />
 		<meta name="og:image" content="http://estcequecestbientotlafriteduvendredi.fr/frite.gif" />
 		<title>Est-ce que c'est bientôt la frite du vendredi ?</title>
+		<meta name="description" content="Tu travailles, tu as envie de frites, c'est vendredi et c'est bientôt le week-end. La Quête du Gras commence !" />
 		<link rel="stylesheet" href="frite.css">
 	</head>
 	<body>
