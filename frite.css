@@ -23,6 +23,10 @@ body{
 	max-width: 80%;
 }
 
+#partage{
+	margin-top: 50px;
+}
+
 footer{
 	position: absolute;
 	bottom: 5px;

@@ -11,6 +11,14 @@
 		<link rel="stylesheet" href="frite.css">
 	</head>
 	<body>
+		<div id="fb-root"></div>
+		<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/fr_FR/all.js#xfbml=1";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));</script>
 		<div id="reponse">
 			<?php
 				$jour = date('N');
@@ -121,7 +129,13 @@
 					}
 				}
 			?>
+			<div id="partage">
+				<a href="https://twitter.com/share" class="twitter-share-button" data-url="http://estcequecestbientotlafriteduvendredi.fr" data-text="Tu travailles, tu as envie de frites, c'est vendredi et c'est bientôt le week-end. La Quête du Gras commence !" data-lang="fr" data-hashtags="gras">Tweeter</a>
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+				<div class="fb-like" data-href="http://estcequecestbientotlafriteduvendredi.fr" data-send="false" data-layout="button_count" data-width="450" data-show-faces="false"></div>
+			</div>
 		</div>
+		
 		<footer>
 			Un projet "à la con"™ de <a href="http://twitter.com/alex_joub">@alex_joub</a>, <a href="http://twitter.com/Fantattitude">@Fantattitude</a>, <a href="http://twitter.com/victornavez">@victornavez</a> &amp; <a href="http://twitter.com/WIPEOUT2197">@WIPEOUT2197</a> (Stagiaire)
 		</footer>
