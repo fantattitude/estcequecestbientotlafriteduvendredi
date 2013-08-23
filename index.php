@@ -141,18 +141,22 @@
 		<footer>
 			Un projet "à la con"™ de <a href="http://twitter.com/alex_joub">@alex_joub</a>, <a href="http://twitter.com/Fantattitude">@Fantattitude</a>, <a href="http://twitter.com/victornavez">@victornavez</a> &amp; <a href="http://twitter.com/WIPEOUT2197">@WIPEOUT2197</a> (Stagiaire)
 		</footer>
+		
+		<!-- Piwik -->
 		<script type="text/javascript">
-			var _gauges = _gauges || [];
+			var _paq = _paq || [];
+			_paq.push(["trackPageView"]);
+			_paq.push(["enableLinkTracking"]);
+
 			(function() {
-				var t   = document.createElement('script');
-				t.type  = 'text/javascript';
-				t.async = true;
-				t.id    = 'gauges-tracker';
-				t.setAttribute('data-site-id', '516fd302108d7b5d5d000044');
-				t.src = '//secure.gaug.es/track.js';
-				var s = document.getElementsByTagName('script')[0];
-				s.parentNode.insertBefore(t, s);
+				var u=(("https:" == document.location.protocol) ? "https" : "http") + "://stats.fantattitude.me/";
+				_paq.push(["setTrackerUrl", u+"piwik.php"]);
+				_paq.push(["setSiteId", "4"]);
+				var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+				g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
 			})();
 		</script>
+		<!-- End Piwik Code -->		
+
 	</body>
 </html>
